@@ -86,6 +86,24 @@ ul li {
 					echo "</ul>";
 				}
 			}
+			if(isset($_GET['id'])){ 
+				$contactid=$_GET['id']; 
+				$db=mysql_connect  ("servername", "username",  "password") or die ('I cannot connect to the database  because: ' . mysql_error()); 
+				$mydb=mysql_select_db("yourDatabase"); 
+				$sql="SELECT  * FROM Contacts WHERE ID=" . $contactid; 
+				$result=mysql_query($sql); 
+				while($row=mysql_fetch_array($result)){ 
+					$FirstName =$row['FirstName']; 
+					$LastName=$row['LastName']; 
+					$PhoneNumber=$row['PhoneNumber']; 
+					$Email=$row['Email']; 
+					echo  "<ul>\n"; 
+					echo  "<li>" . $FirstName . " " . $LastName .  "</li>\n"; 
+					echo  "<li>" . $PhoneNumber . "</li>\n"; 
+					echo  "<li>" . "<a href=mailto:" . $Email .  ">" . $Email . "</a></li>\n"; 
+					echo  "</ul>"; 
+				} 
+			} 
 		?>
     </div>
 </body>
