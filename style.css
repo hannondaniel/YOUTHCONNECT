@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+#head {
+	margin:auto;
+	width:50%;
+	font:Verdana, Geneva, sans-serif;
+	font-size:1.5em;
+}
+#left {}
+#right {}
+#content {
+	margin:auto;
+	width:45%;
+}
+/* Original Directory Structure Layout  */
+#directory {}
+.directory {
+	list-style:none;
+}
+.directory p {
+	text-decoration:none;
+	color:#FFF;
+	background:#0C6;
+	padding:0px;
+	width:50px;
+}
+.directory li {
+	display:inline;
+}
+.directory li:hover ul {
+	top:3em;
+}
+.directory li {
+	display:inline-block;
+}
+/* Current Directory Style */
+#directorytest {
+	margin:auto;
+	width:50%;
+}
+.index-style caption tbody tfoot thead tr th td {
+	margin: 0;
+	padding:0;
+	border:0;
+	outline:0;
+}
+
+.index-style p {
+	text-decoration:none;
+	color:#FFF;
+	background:#0C6;
+	padding:15px 5px;
+	width:100%;
+}
+.searchbar {
+	width:80%;
+}
+.searchbutton {
+	width:10%;
+}
