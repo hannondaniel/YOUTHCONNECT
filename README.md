@@ -1,9 +1,9 @@
 # YOUTHCONNECT
-youthconnect is a service which connects youths from roscommon by directing them to local facilities
+youthconnect is a service which connects youths from roscommon by directing them to local facilities \n
 
 Update History
-12/05/16
-added FAQ page and appropriate ties to it on index.php
+\n 12/05/16
+\n added FAQ page and appropriate ties to it on index.php
 
-11/05/16
-added to github
+\n 11/05/16
+\n added to github
