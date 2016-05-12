@@ -31,7 +31,7 @@ ul li {
         <th height="23" scope="col"><a href="#"><p>Home</p></a></th>
         <th scope="col"><a href="#"><p>Events</p></a></th>
         <th scope="col"><a href="#"><p>A-Z</p></a></th>
-        <th scope="col"><a href="#"><p>FAQ</p></a></th>
+        <th scope="col"><a href="faq.html"><p>FAQ</p></a></th>
       </tr>
     </table>
 </div>
