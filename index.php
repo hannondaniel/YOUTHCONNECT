@@ -29,7 +29,7 @@ ul li {
     <table style="align:center;" class="index-style" width="709" border="1">
       <tr>
         <th height="23" scope="col"><a href="#"><p>Home</p></a></th>
-        <th scope="col"><a href="#"><p>Events</p></a></th>
+        <th scope="col"><a href="events.html"><p>Events</p></a></th>
         <th scope="col"><a href="#"><p>A-Z</p></a></th>
         <th scope="col"><a href="faq.html"><p>FAQ</p></a></th>
       </tr>
